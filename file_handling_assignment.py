@@ -16,7 +16,7 @@ def read_and_display_file():
             contents = file.read()
         print("File content:\n" + contents)
     except FileNotFoundError:
-        print("The file was not found.")
+        print("The file was not found.\n")
     except Exception as e:
         print(f"An error occurred while reading the file: {e}")
 
